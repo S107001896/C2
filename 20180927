@@ -1,4 +1,5 @@
-
+```
+```
 /* myc_1_1, 我的第一個C程式碼 */ 
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,9 +12,8 @@ int main(void)
    return ;
    printf("Hello World!\n");
 }
-
-
-
+```
+```
 #include <stdio.h>
 #include <stdlib.h>
 printme()
@@ -43,4 +43,10 @@ int main(void)
    return 0;
    printf("Hello World!\n");
 }
-
+```
+```
+```
+```
+```
+```
+```
