@@ -17,18 +17,20 @@
 
 
 
+3-6
 
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   int i=356;
+   printf("ASCII(%d)=%c\n",i,i);	/* 印出ASCII碼為i的字元 */
+   
+   system("pause");
+   return 0;
+}
 
-
-
-
-
-
-
-
-
-
-
+ASCII(356)=d
 
 3-8
 
