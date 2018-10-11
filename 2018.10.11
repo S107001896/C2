@@ -4,18 +4,20 @@
 
 
 
+3-4
 
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   char ch=90;				/* 將整數90設給字元變數ch */
+   printf("ch=%o\n",ch);		/* 印出ch的值 */
+   
+   system("pause");
+   return 0;
+}
 
-
-
-
-
-
-
-
-
-
-
+ch=132
 
 3-6
 
