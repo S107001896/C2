@@ -1,6 +1,34 @@
+2-1
 
+#include <stdio.h>		/* 把stdio.h這個檔案含括進來 */
+#include <stdlib.h>		/* 把stdlib.h這個檔案含括進來 */
+int main(void)			/* 主函數main()從這兒開始 */
+{
+   int num;				/* 宣告整數變數num*/
+   num=2.3;		 		/* 把num的值設為2 */
+   printf("I have %f cats.\n",num); 	/* 呼叫printf()函數 */
+   printf("You have %f cats, too.\n",num); /* 呼叫printf()函數 */
+   system("pause");	/* 呼叫dos裡的pause指令，用來暫停程式的執行 */
+   return 0;
+}
 
+I have 0.000000 cats.
+You have 0.000000 cats, too.
 
+#include <stdio.h>		/* 把stdio.h這個檔案含括進來 */
+#include <stdlib.h>		/* 把stdlib.h這個檔案含括進來 */
+int main(void)			/* 主函數main()從這兒開始 */
+{
+   int num;				/* 宣告整數變數num*/
+   num=2.3;		 		/* 把num的值設為2 */
+   printf("I have %c cats.\n",num); 	/* 呼叫printf()函數 */
+   printf("You have %c cats, too.\n",num); /* 呼叫printf()函數 */
+   system("pause");	/* 呼叫dos裡的pause指令，用來暫停程式的執行 */
+   return 0;
+}
+
+I have  cats.
+You have  cats, too.
 
 
 
