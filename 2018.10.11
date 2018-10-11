@@ -19,6 +19,58 @@ int main(void)
 
 ch=132
 
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   char ch=90;				/* 將整數90設給字元變數ch */
+   printf("ch=%u\n",ch);		/* 印出ch的值 */
+   
+   system("pause");
+   return 0;
+}
+
+ch=90
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   char ch=90;				/* 將整數90設給字元變數ch */
+   printf("ch=%x\n",ch);		/* 印出ch的值 */
+   
+   system("pause");
+   return 0;
+}
+
+ch=5a
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   char ch=90;				/* 將整數90設給字元變數ch */
+   printf("ch=%d\n",ch);		/* 印出ch的值 */
+   
+   system("pause");
+   return 0;
+}
+
+ch=90
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   char ch=90;				/* 將整數90設給字元變數ch */
+   printf("ch=%b\n",ch);		/* 印出ch的值 */
+   
+   system("pause");
+   return 0;
+}
+
+ch=b
+
 3-6
 
 #include <stdio.h>
