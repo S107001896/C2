@@ -192,3 +192,18 @@ sizeof(num)=4
 sizeof(int)=4
 sizeof(long)=4
 sizeof(short)=2
+
+4-3
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   int num=25;
+   printf("\"C:\\\\happyC\"\n",num);    /* 印出字串 */
+
+   system("pause");
+   return 0;
+}
+
+"C:\\happyC"
