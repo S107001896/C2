@@ -32,8 +32,21 @@ You have  cats, too.
 
 2-4
 
+#include <stdio.h>   	
+#include <stdlib.h>		
 
+int main(void)
+{
+   int num;		
+   num=2;		
+   printf("I have %d dogs.\n",num);			/* 印出字串及變數內容  */
+   printf("You have %d dogs, too. \n",num); 	/* 印出字串及變數內容  */
+   system("pause");
+   return 0;
+}
 
+I have 2 dogs.
+You have 2 dogs, too.
 
 3-4
 
