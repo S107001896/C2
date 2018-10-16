@@ -47,3 +47,15 @@ Enter a character: A
 >>> print(ch)
 D
 
+3.9
+
+x = input("Enter a character: ")
+Enter a character: A
+>>> y = input("Enter a character: ")
+Enter a character: Z
+>>> print(ord(y) - ord(x))
+25
+
+
+
+
