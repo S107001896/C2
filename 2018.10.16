@@ -1,1 +1,17 @@
 
+root@kali:~# python3
+Python 3.6.4 (default, Jan  5 2018, 02:13:53) 
+[GCC 7.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> q = 804
+>>> p = 0.1485
+>>> print(q, p, p * q)
+804 0.1485 119.39399999999999
+>>> print(q, p, p * q, sep=",")
+804,0.1485,119.39399999999999
+>>> print(q, p, p * q, sep=" :-) ")
+804 :-) 0.1485 :-) 119.39399999999999
+>>> print(str(q) + " " + str(p) + " " + str(p * q))
+804 0.1485 119.39399999999999
+
+
