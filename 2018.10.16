@@ -56,6 +56,12 @@ Enter a character: Z
 >>> print(ord(y) - ord(x))
 25
 
+3.11
 
-
+sum = 2 + 3
+>>> print(sum)
+5
+>>> s = '2' + '3'
+>>> print(s)
+23
 
