@@ -56,6 +56,17 @@ Enter a character: Z
 >>> print(ord(y) - ord(x))
 25
 
+3.10
+
+ChapterNo = 1
+>>> title = "Chapter" + str(chapterNo)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'chapterNo' is not defined
+>>> title = "Chapter" + str(ChapterNo)
+>>> title
+'Chapter1'
+
 3.11
 
 sum = 2 + 3
