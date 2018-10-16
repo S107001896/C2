@@ -38,3 +38,12 @@ Type "help", "copyright", "credits" or "license" for more information.
 'a'
 >>> '%c %c %c %c %c'% (97,98,99,100,101)
 'a b c d e'
+
+3.8
+
+x = input("Enter a character: ")
+Enter a character: A
+>>> ch = chr(ord(x) + 3)
+>>> print(ch)
+D
+
