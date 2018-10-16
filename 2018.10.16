@@ -29,3 +29,12 @@ IOError: [Errno 2] No such file or directory: 'cat.png'
 >>> im = Image.open('/root/Downloads/cat.jpeg')
 >>> im2 = im.filter(ImageFilter.BLUR)
 >>> im2.save('/root/Downloads/cat_blur.jpg', 'jpeg')
+
+ python3
+Python 3.6.4 (default, Jan  5 2018, 02:13:53) 
+[GCC 7.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> '%c' % 97
+'a'
+>>> '%c %c %c %c %c'% (97,98,99,100,101)
+'a b c d e'
