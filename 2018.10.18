@@ -52,6 +52,26 @@ Fahrenheit 35 is Celsius degree
 >>> turtle.circle(45)
 >>> turtle.done()
 
+1.9
+
+>>> import turtle # Import turtle mogule
+>>> turtle.showturtle()
+>>> turtle.write("Welcome to Python")
+>>> turtle.forword(100)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'turtle' has no attribute 'forword'
+>>> turtle.forward(100)
+>>> turtle.right(90)
+>>> turtle.color("red")
+>>> turtle.forward(50)
+>>> turtle.right(90)
+>>> turtle.color("green")
+>>> turtle.forward(100)
+>>> turtle.right(45)
+>>> turtle.right(45)
+>>> turtle.forward(50)
+
 1.18
 
 >>> import turtle
