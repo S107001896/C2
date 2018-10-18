@@ -52,6 +52,32 @@ Fahrenheit 35 is Celsius degree
 >>> turtle.circle(45)
 >>> turtle.done()
 
+1.18
+
+>>> import turtle
+>>> turtle.color("black")
+>>> turtle.penup()
+>>> turtle.goto(-100, -25)
+>>> turtle.pendown()
+>>> turtle.circle(45)
+>>> turtle.penup()
+>>> turtle.goto(-200, -25)
+>>> turtle.pendown()
+>>> turtle.circle(45)
+>>> turtle.penup()
+>>> turtle.goto(-100, -125)
+>>> turtle.pendown()
+>>> turtle.circle(45)
+>>> turtle.penup()
+>>> turtle.goto(-200, -125)
+>>> turtle.pendown()
+>>> turtle.circle(45)
+
+
+
+
+
+
 2.1
 
 >>> # Assign  a value to radius
