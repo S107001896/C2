@@ -84,9 +84,80 @@ Enter an integer for seconds: 500
 >>> print(seconds, "seconds is", minutes, "minutes and", remainingSeconds, "seconds")
 500 seconds is 8 minutes and 20 seconds
 
+2.11
 
+>>> 42/5
+8.4
+>>> 42//5
+8
+>>> 42%5
+2
+>>> 40%5
+0
+>>> 1%2
+1
+>>> 2%1
+0
+>>> 45 +4 * 4-2
+59
+>>> 45 +43%5*(23*3%2)
+48
+>>> 5**2
+25
+>>> 5.1**2
+26.009999999999998
 
+2.6
 
+>>> # Prompt the user for input
+... purchaseAmount = eval(input("Enter purchase amout: "))
+Enter purchase amout: 197.55
+>>> # Compute sales tax
+... tax = purchaseAmount * 0.06
+>>> # Display tax amout with two digits after decimal point
+... print("Sales tax is", int(tax * 100) / 100.0)
+Sales tax is 11.85
 
+2.18
 
+>>> value = 4.6
+>>> print(int(value))
+4
+>>> print(round(value))
+5
+>>> print(eval("4 * 5 + 2"))
+22
+>>> print(int("04"))
+4
+>>> print(int("4.5"))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: '4.5'
+>>> print(eval("04"))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<string>", line 1
+    04
+     ^
+SyntaxError: invalid token
+
+2.7
+
+>>> import time
+>>> currentTime = time.time() # Get current time
+>>> # Obtain the total seconds since midnight, Jan 1, 1970
+... totalSeconds = int(currentTime)
+>>> # Get the current second
+... currentSecond = totalSeconds % 60
+>>> # Obtain the total minutes
+... totalMinutes = totalSeconds // 60
+>>> # Compute the current minute in the hour
+... currentMinute = totalMinutes % 60
+>>> # Obtain the total hours
+... totalHours = totalMinutes // 60
+>>> # Compute the current hour
+... currentHour = totalHours % 24
+>>> # Display results
+... print("Current time is", currentHour, ":", currentMinute, ":", currentSecond, "GMT")
+Current time is 7 : 33 : 31 GMT
 
