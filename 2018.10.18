@@ -73,3 +73,20 @@ Enter a value for radius: 2.5
 ... print("The area for the circle of radius", radius, "is", area)
 The area for the circle of radius 2.5 is 19.6349375
 
+2.5
+
+>>> # Prompt the user for input
+... seconds = eval(input("Enter an integer for seconds: "))
+Enter an integer for seconds: 500
+>>> # Get minutes and remaining seconds
+... minutes = seconds // 60     # Find minutes in seconds
+>>> remainingSeconds = seconds % 60   # Seconds remaining
+>>> print(seconds, "seconds is", minutes, "minutes and", remainingSeconds, "seconds")
+500 seconds is 8 minutes and 20 seconds
+
+
+
+
+
+
+
