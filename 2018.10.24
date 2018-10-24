@@ -1,1 +1,9 @@
 https://colab.research.google.com/drive/1WfRzgjsr5V4Z8a6gMHWxydpNWx6ju3E4#scrollTo=g-H6HYo4m_a9
+
+
+
+
+
+
+#資料存取控制
+強制存取控制是最嚴格的資料存取控制手段，它對主體 (subject) 及物件 (object) 都清楚的劃分安全等級，符合等級者方得存取。
