@@ -1,1 +1,40 @@
+5.1
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   int age=56; 
+   
+   printf("age=%d\n",age); 
+   age=age+1;  	/* 將age加1後，再設回給age存放 */
+   printf("將age加1之後,age=%d\n",age); 
+   
+   system("pause");
+   return 0;
+}
+
+age=56
+將age加1之後,age=57
+
+5.2
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   int a=5;
+   int b=8;
+   printf("a=%d, !a=%d\n",a,!a);	/* 印出a及!a的值 */
+   printf("b=%d, !b=%d\n",b,!b);	/* 印出b及!b的值 */
+   
+   system("pause");   
+   return 0;
+}
+
+a=5, !a=0
+b=8, !b=0
+
+5.3
+
 
