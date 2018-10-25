@@ -37,4 +37,125 @@ b=8, !b=0
 
 5.3
 
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{   
+   printf("12%%4=%d\n",12%4);		/* 求出12/4的餘數 */
+   printf("12%%12=%d\n",12%5);   	/* 求出12/5的餘數 */
+   printf("12%%16=%d\n",12%16); 	/* 求出12/16的餘數 */
 
+   system("pause");
+   return 0;
+}
+
+12%4=0
+12%12=2
+12%16=12
+
+5.4
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   if(5>2)	/* 判斷5>2是否成立 */
+      printf("5>2成立\n");
+   
+   if(1)     	/* 1代表true，所以if的判斷結果會成立 */
+      printf("此行一定會被執行\n");
+      
+   if(3==8) 	/* 判斷3是否等於8 */
+      printf("3==8成立\n"); 
+      
+   system("pause");   
+   return 0;
+}
+
+5>2成立
+此行一定會被執行
+
+5.5
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   int a=5, b=8;
+   
+   printf("a=%d",a);
+   printf(", a++的傳回值為%d",a++);	/* 計算a++，並印出其傳回值 */
+   printf(", a=%d\n",a);
+   
+   printf("b=%d",b);
+   printf(", ++b的傳回值為%d",++b); 	/* 計算++b，並印出其傳回值 */
+   printf(", b=%d\n",b);
+     
+   system("pause");   
+   return 0;
+}
+
+a=5, a++的傳回值為5, a=6
+b=8, ++b的傳回值為9, b=9
+
+5.6
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   int score;
+   printf("請輸入成績:");
+   scanf("%d",&score);
+   
+   if ((score<0) || (score>100))   /* 若成績超出0到100之間 */
+      printf("成績輸入錯誤!!\n");     
+   
+   if ((score<60) && (score>49))   /* 若成績介於50到59之間 */
+      printf("需要補考!!\n");   
+
+   system("pause");   
+   return 0;
+}
+
+請輸入成績:56
+需要補考!!
+
+5.7
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   int a=4,b=8;
+   printf("計算前: a=%d, b=%d\n",a,b);
+   a+=b;		/* 計算a+=b, 即a=a+b */
+   printf("計算後: a=%d, b=%d\n",a,b);
+      
+   system("pause");   
+   return 0;
+}
+
+計算前: a=4, b=8
+計算後: a=12, b=8
+
+5.8
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   char ch='a';
+   short s=-4;
+   int i=5;
+   float f=5.3f;
+   double d=6.28;    
+   printf("(ch/s)-(d/f)-(s+i)=%f\n",(ch/s)-(d/f)-(s+i));  
+   printf("size=%d\n",sizeof((ch/s)-(d/f)-(s+i)));
+
+   system("pause");   
+   return 0;
+}
+
+(ch/s)-(d/f)-(s+i)=-26.184906
+size=8
