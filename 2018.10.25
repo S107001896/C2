@@ -256,3 +256,36 @@ int main(void)
    return 0;
 }
 
+7.3
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   int i=1,sum=0;	/* 設定迴圈初值 */
+   while(i<=10)    /* while迴圈，當sum小於100則繼續累加 */
+   {
+      sum+=i;
+      printf("從1累加到%2d=%2d\n",i,sum);
+      i++;
+   }
+   printf("必須累加到%d\n",i-1);
+   system("pause");
+   return 0;
+}
+
+從1累加到 1= 1
+從1累加到 2= 3
+從1累加到 3= 6
+從1累加到 4=10
+從1累加到 5=15
+從1累加到 6=21
+從1累加到 7=28
+從1累加到 8=36
+從1累加到 9=45
+從1累加到10=55
+必須累加到10
+
+7.6
+
+
