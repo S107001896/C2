@@ -160,8 +160,25 @@ int main(void)
 (ch/s)-(d/f)-(s+i)=-26.184906
 size=8
 
+6.9
 
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   int num1,num2,smaller;
+   printf("請輸入兩個整數:");
+   scanf("%d %d",&num1,&num2);
+   
+   num1>num2 ? (smaller=num1) : (smaller=num2);  /* 條件運算子 */
+   printf("%d數值較大\n",smaller); 
+ 
+   system("pause");
+   return 0;
+}
 
+請輸入兩個整數:48 85
+85數值較大
 
 6.11
 
