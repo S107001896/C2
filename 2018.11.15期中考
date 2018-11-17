@@ -1,0 +1,26 @@
+A
+for迴圈
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   int i,sum=4;
+   for(i=1;i<=401;i++)			
+      sum+=i;
+   printf("1+5+9+...+401=%d\n",sum);	
+   
+   system("pause");
+   return 0;
+}
+
+1+5+9+...+401=80605
+
+while迴圈
+
+
+
+
+dowhile迴圈
+
+
+
