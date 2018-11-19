@@ -17,10 +17,49 @@ int main(void)
 
 while迴圈
 
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   int i=1,sum=4;
+   
+   while(i<=401)
+   {
+			   			
+     sum+=i;
+     printf("1+5+9+...+401=%d\n",sum);
+     i++;
+    }
+   system("pause");
+   return 0;
+}
 
-
+1+5+9+...+401=5
+1+5+9+...+401=7
+1+5+9+...+401=10
+.
+.
+.
+1+5+9+...+401=80605
 
 dowhile迴圈
 
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   int i=1,sum=4;
+   do
+   sum+=i++;
+   while(i<=401);
+   			
+     
+     printf("1+5+9+...+401=%d\n",sum);
+     
+     	
+        
+   system("pause");
+   return 0;
+}
 
-
+1+5+9+...+401=80605
