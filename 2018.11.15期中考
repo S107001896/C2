@@ -22,10 +22,8 @@ while迴圈
 int main(void)
 {
    int i=1,sum=4;
-   
    while(i<=401)
-   {
-			   			
+   {		   			
      sum+=i;
      printf("1+5+9+...+401=%d\n",sum);
      i++;
@@ -53,13 +51,21 @@ int main(void)
    sum+=i++;
    while(i<=401);
    			
-     
      printf("1+5+9+...+401=%d\n",sum);
-     
-     	
-        
+          
    system("pause");
    return 0;
 }
 
 1+5+9+...+401=80605
+
+B
+
+
+C
+
+
+D
+
+
+
