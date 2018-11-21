@@ -1,4 +1,4 @@
-A
+A.
 for迴圈
 #include <stdio.h>
 #include <stdlib.h>
@@ -59,7 +59,7 @@ int main(void)
 
 1+5+9+...+401=80605
 
-B
+B.
 for迴圈
 
 #include <stdio.h>
@@ -95,7 +95,7 @@ while迴圈
 dowhile迴圈
 recursion
 
-C
+C.
 for迴圈
 #include <stdio.h>
 #include <stdlib.h>
@@ -120,7 +120,7 @@ while迴圈
 dowhile迴圈
 recursion
 
-D
+D.
 for迴圈
 #include <stdio.h>
 #include <stdlib.h>
