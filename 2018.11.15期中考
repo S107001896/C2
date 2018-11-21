@@ -88,7 +88,8 @@ double power(double base, int n)
    return pow;
 }
 
-
+請輸入底數與次方:2,5
+這是使用for loop完成的結果2.000000的5Ω次方=32.000000
 
 while迴圈
 dowhile迴圈
