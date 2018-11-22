@@ -16,7 +16,6 @@ int main(void)
 1+5+9+...+401=80605
 
 while迴圈
-
 #include <stdio.h>
 #include <stdlib.h>
 int main(void)
@@ -41,7 +40,6 @@ int main(void)
 1+5+9+...+401=80605
 
 dowhile迴圈
-
 #include <stdio.h>
 #include <stdlib.h>
 int main(void)
@@ -61,7 +59,6 @@ int main(void)
 
 B.
 for迴圈
-
 #include <stdio.h>
 #include <stdlib.h>
 double power(double, int);	
