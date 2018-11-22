@@ -108,7 +108,7 @@ double power_while(double base, int n)
    double pow=1.0;
    while(i<=n)	
 {
-	pow=pow*base;
+    pow=pow*base;
     i++;
 }
    return pow;
