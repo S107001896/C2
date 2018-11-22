@@ -162,11 +162,9 @@ int fac(int);
 int main(void)
 {
    printf("fac(5)=%d\n", fac(5));   
-
    system("pause");
    return 0;
 }
-
 int fac(int n)	
 {
    if(n>0)
