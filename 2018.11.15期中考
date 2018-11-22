@@ -150,7 +150,6 @@ double power_dowhile(double base, int n)
 2.000000的5次方=32.000000
 
 遞迴(recursion)
-
 #include <stdio.h>
 #include <stdlib.h>
 double power_r(double, int);	
@@ -170,10 +169,13 @@ double power_r(double base, int n)
 {
    int i;
    double pow=1.0;
-    return (i=1;i<=n;i++);	
+    return (i<=n);
+	i++;
    pow=pow*base;
    return pow;
 }
+
+
 
 C.
 for迴圈
