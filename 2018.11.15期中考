@@ -118,6 +118,37 @@ double power_while(double base, int n)
 2.000000的5次方=32.000000
 
 dowhile迴圈
+#include <stdio.h>
+#include <stdlib.h>
+double power_dowhile(double, int);	
+int main(void)
+{
+   double x;		
+   int n;		
+
+   printf("請輸入底數與次方:");	
+   scanf("%lf,%d",&x,&n); 		
+   printf("%lf的%d次方=%lf\n",x,n,power_dowhile(x,n)); 
+
+   system("pause");
+   return 0;
+}
+double power_dowhile(double base, int n)   
+{
+   int i=1;
+   double pow=1.0;
+   do
+{  
+   i++;  
+   pow=pow*base;
+} 
+   while(i<=n); 
+   return pow;
+}
+
+請輸入底數與次方:2,5
+2.000000的5次方=32.000000
+
 遞迴(recursion)
 
 C.
