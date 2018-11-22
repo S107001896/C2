@@ -74,7 +74,6 @@ int main(void)
    system("pause");
    return 0;
 }
-
 double power_for(double base, int n)   
 {
    int i;
@@ -103,7 +102,6 @@ int main(void)
    system("pause");
    return 0;
 }
-
 double power_while(double base, int n)   
 {
    int i=1;
