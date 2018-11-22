@@ -90,16 +90,19 @@ double power(double base, int n)
 
 while迴圈
 dowhile迴圈
-recursion
+遞迴(recursion)
 
 C.
 for迴圈
+while迴圈
+dowhile迴圈
+遞迴(recursion)
 #include <stdio.h>
 #include <stdlib.h>
 int fac(int);     
 int main(void)
 {
-   printf("fac(4)=%d\n", fac(4));   
+   printf("fac(5)=%d\n", fac(5));   
 
    system("pause");
    return 0;
@@ -113,9 +116,7 @@ int fac(int n)
       return 1;
 }
 
-while迴圈
-dowhile迴圈
-recursion
+fac(5)=120
 
 D.
 for迴圈
@@ -142,6 +143,6 @@ int fib(int n)
 
 while迴圈
 dowhile迴圈
-recursion
+遞迴(recursion)
 
 
