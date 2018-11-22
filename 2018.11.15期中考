@@ -167,7 +167,7 @@ int main(void)
 }
 double power_r(double base, int n)   
 {
-   int i;
+   int i=1;
    double pow=1.0;
     return (i<=n);
 	i++;
