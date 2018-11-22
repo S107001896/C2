@@ -151,6 +151,30 @@ double power_dowhile(double base, int n)
 
 遞迴(recursion)
 
+#include <stdio.h>
+#include <stdlib.h>
+double power_r(double, int);	
+int main(void)
+{
+   double x;		
+   int n;		
+
+   printf("請輸入底數與次方:");	
+   scanf("%lf,%d",&x,&n); 		
+   printf("%lf的%d次方=%lf\n",x,n,power_r(x,n)); 
+
+   system("pause");
+   return 0;
+}
+double power_r(double base, int n)   
+{
+   int i;
+   double pow=1.0;
+    return (i=1;i<=n;i++);	
+   pow=pow*base;
+   return pow;
+}
+
 C.
 for迴圈
 while迴圈
