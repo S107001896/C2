@@ -61,22 +61,21 @@ B.
 for迴圈
 #include <stdio.h>
 #include <stdlib.h>
-double power(double, int);	
+double power_for(double, int);	
 int main(void)
 {
    double x;		
    int n;		
 
    printf("請輸入底數與次方:");	
-   scanf("%lf,%d",&x,&n); 
-   printf("這是使用for loop完成的結果");		
-   printf("%lf的%dΩ次方=%lf\n",x,n,power(x,n)); 
+   scanf("%lf,%d",&x,&n); 		
+   printf("%lf的%d次方=%lf\n",x,n,power_for(x,n)); 
 
    system("pause");
    return 0;
 }
 
-double power(double base, int n)   
+double power_for(double base, int n)   
 {
    int i;
    double pow=1.0;
@@ -86,7 +85,7 @@ double power(double base, int n)
 }
 
 請輸入底數與次方:2,5
-這是使用for loop完成的結果2.000000的5Ω次方=32.000000
+2.000000的5次方=32.000000
 
 while迴圈
 dowhile迴圈
