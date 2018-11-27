@@ -6,11 +6,11 @@
   </head>
   <body>
     <form>
-      姓&nbsp;&nbsp;&nbsp;名：<input type="text" name="UserName" size="40"><br>
+      姓&nbsp;&nbsp;&nbsp;名：<input type="text" name="UserName" size="40"><br>   ＆nbsp(空格)
       E-Mail：<input type="text" name="UserMail" size="40" value="username@mailserver"><br>
       年&nbsp;&nbsp;&nbsp;齡：
       <input type="radio" name="UserAge" value="Age1">未滿20歲
-      <input type="radio" name="UserAge" value="Age2" checked>20~29
+      <input type="radio" name="UserAge" value="Age2" checked>20~29   checked(預選)
       <input type="radio" name="UserAge" value="Age3">30~39
       <input type="radio" name="UserAge" value="Age4">40~49
       <input type="radio" name="UserAge" value="Age5">50歲以上<br>
