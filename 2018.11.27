@@ -96,9 +96,9 @@
 $_SERVER[]是甚麼?
 包含了头信息(header)、路径(path)、以及脚本位置(script locations)等等信息的数组。
 $_SERVER['PHP_AUTH_USER']會傳回甚麼資料?
-
+當PHP運行在Apache模塊方式下，並且正在使用HTTP認證功能，這個變量便是用戶輸入的用戶名。
 $_SERVER['PHP_AUTH_PW']會傳回甚麼資料?
-
+當PHP運行在Apache模塊方式下，並且正在使用HTTP認證功能，這個變量便是用戶輸入的密碼。
 isset()函式的功能?
 isset用來檢查變數是否設置，而且 isset 除了可以檢查變數之外，還可以檢查陣列（PHP Array）元素。用isset來檢查一個被設置為NULL的變數會回傳 false，但該變數如果是字串 NULL 則會回傳 true。
 WWW-Authenticate是甚麼? Basic vs Digest ?
