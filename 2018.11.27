@@ -20,7 +20,7 @@
       <input type="checkbox" name="UserPhone[]" value="ASUS">ASUS
       <input type="checkbox" name="UserPhone[]" value="acer">acer<br>
       您使用手機時最常碰到哪些問題？<br>
-      <textarea name="UserTrouble" cols="45" rows="4">上網速度不夠快</textarea><br>
+      <textarea name="UserTrouble" cols="45" rows="4">上網速度不夠快</textarea><br>   textarea()
       您使用過哪些電信業者的門號？(可複選)
       <select name="UserNumber[]" size="4" multiple>
         <option value="中華電信">中華電信
