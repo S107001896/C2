@@ -36,3 +36,29 @@ num=20, &num=000000000062FE44
 e=48, &e=000000000062FE40
 x=13, &x=000000000062FE3C
 o=85, &o=000000000062FE38
+
+#include <stdio.h> 
+#include <stdlib.h>
+int main(void)
+{
+   int *ptr,d=103,num=210,c=333;	
+
+   ptr=&num;			
+   printf("num=%d, num的位址=&num=%p\n",num,&num); 
+   printf("*ptr=%d, ptr=%p, &ptr=%p\n",*ptr,ptr,&ptr); 
+   ptr=&c;
+   printf("c=%d, c的位址=&c=%p\n",c,&c); 
+   printf("*ptr=%d, ptr=%p, &ptr=%p\n",*ptr,ptr,&ptr); 
+   ptr=&d;
+   printf("d=%d, d的位址=&d=%p\n",d,&d); 
+   printf("*ptr=%d, ptr=%p, &ptr=%p\n",*ptr,ptr,&ptr);  
+   system("pause");
+   return 0;
+}
+
+num=210, num的位址=&num=000000000062FE40
+*ptr=210, ptr=000000000062FE40, &ptr=000000000062FE48
+c=333, c的位址=&c=000000000062FE3C
+*ptr=333, ptr=000000000062FE3C, &ptr=000000000062FE48
+d=103, d的位址=&d=000000000062FE44
+*ptr=103, ptr=000000000062FE44, &ptr=000000000062FE48
