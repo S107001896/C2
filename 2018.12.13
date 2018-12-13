@@ -63,8 +63,34 @@ c=333, c的位址=&c=000000000062FE3C
 d=103, d的位址=&d=000000000062FE44
 *ptr=103, ptr=000000000062FE44, &ptr=000000000062FE48
 
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   int a=56,b=101;
+   int *ptr1,*ptr2;
+   ptr1=&a;				
+   ptr2=&b;			 	
+   *ptr1=22;			 	
+   *ptr2=42;				
+   a=57;			 
+   ptr1=ptr2;		 	
+   *ptr1=22;		 	 	
+   ptr1=&a;		 	 
+   a=34;            		
+   *ptr2=*ptr1+9; 	
+   ptr2=&a;		 		
+   
+   printf("a=%2d, b=%2d, *ptr1=%2d, *ptr2=%2d\n",a,b,*ptr1,*ptr2);
+   printf("ptr1=%p, ptr2=%p\n",ptr1,ptr2);   
+   printf("ptr1=%p, ptr2=%p\n",&ptr1,&ptr2);    
+   system("pause");
+   return 0;
+}
 
-
+a=34, b=43, *ptr1=34, *ptr2=34
+ptr1=000000000062FE4C, ptr2=000000000062FE4C
+ptr1=000000000062FE40, ptr2=000000000062FE38
 
 
 
