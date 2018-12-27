@@ -30,6 +30,26 @@ address of S[1][0]=000000000062FE2C
 S[2]=000000000062FE38
 address of S[2][0]=000000000062FE38
 
+#include <stdio.h> 
+#include <stdlib.h>
+int main(void)
+{
+   int a[3]={5,7,9};
+   int i,sum=0;
+   for(i=0;i<3;i++)
+      sum+=a[i]+30;         /* 加總陣列元素的總和 */
+   printf("sum=%d\n",sum);
+
+   system("pause");
+   return 0;
+}
+
+sum=111
+
+
+
+
+
 
 
 
