@@ -90,12 +90,22 @@ int max(int p1, int p2)
 
 max=17
 
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   struct data	/* 定義結構 */
+   {
+      char name[20];
+      int math;
+   } student;
+   printf("sizeof(student)=%d\n",sizeof(student));
+   
+   system("pause");
+   return 0;
+}
 
-
-
-
-
-
+sizeof(student)=24
 
 
 
