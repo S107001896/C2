@@ -45,6 +45,35 @@ void address(int *p1)
 於位址000000000062FE44內，儲存的變數內容為12
 於位址000000000062FE44內，儲存的變數內容為17
 
+#include <stdio.h> 
+#include <stdlib.h>
+void rect(int,int,int *,int *);	/* 函數rect()的原型 */
+int main(void)
+{
+   int a=5,b=8;
+   int area,peri;
+   rect(a,b,&area,&peri);  		/* 呼叫rect(),計算面積及周長 */
+   printf("area=%d,total length=%d\n",area,peri);
+
+   system("pause");
+   return 0;
+}
+
+void rect(int x,int y,int *p1, int *p2)
+{
+   *p1=(x*y)/2;
+   *p2=2*(x+y);
+}
+
+area=20,total length=26
+
+
+
+
+
+
+
+
 
 
 
