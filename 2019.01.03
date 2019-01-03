@@ -1,1 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+void address(int *);      /* 宣告address()函數的原型 */
+int main(void)
+{
+   int a=12; 			/* 設定變數a的值為12 */
+   int *ptr=&a; 			/* 將指標ptr指向變數a */
+   
+   address(&a);			/* 將a的位址傳入address()函數中 */
+   address(ptr); 		/* 將ptr傳入address()函數中 */ 
+   printf("最後a儲存的值(value)為%d\n",a);
+   system("pause");
+   return 0;
+}
+void address(int *p1)
+{
+   printf("於位址%p內，儲存的變數內容為%d\n",p1,*p1);
+   *p1=*p1+5;
+}
+
+於位址000000000062FE44內，儲存的變數內容為12
+於位址000000000062FE44內，儲存的變數內容為17
+最後a儲存的值(value)為22
+
+
+
 
