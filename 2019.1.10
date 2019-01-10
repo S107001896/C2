@@ -1,1 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define MAX 3 
+int main(void)
+{
+   int i=0;
+   struct student			/* 定義結構data */
+   {
+      int number; 	
+      char name[10];
+      int program;
+   } student[MAX];		/* 宣告結構陣列student */
+   
+   for(i=0;i<MAX;i++)	 
+   {
+   	     printf("學號 ");
+         gets(student[i].number); 
+         printf("同學 ");
+         gets(student[i].name);			/* 輸入學生姓名 */
+         printf("程式設計成績是 ");
+         scanf("%d",&student[i].program);		/* 輸入學生數學成績 */
+    fflush(stdin);            			/* 清空緩衝區內的資料 */
+   }
+
+   for(i=0;i<MAX;i++)					/* 輸出結構陣列的內容 */
+      printf("學號%d的%s同學程式設計成績是=%d\n",student[i].number,student[i].name,student[i].program);
+   
+   system("pause");
+   return 0;
+}
 
